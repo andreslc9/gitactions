@@ -4,7 +4,7 @@ from models import Persona
 
 
 class PersonaTestCase(unittest.TestCase):
-#dadsasada
+#dadsasada2aewdsasadsad
    def setUp(self):
       self.persona1 = Persona(nombre='Alejandra', edad=25)
       self.persona2 = Persona(nombre='Diego', edad=22)
