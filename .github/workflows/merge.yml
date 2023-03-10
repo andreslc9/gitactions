@@ -1,7 +1,7 @@
 name: Automerge
 on:
   push:
-    branches: [ ahora ]
+    branches: [ joder ]
 jobs:
   job1:
     permissions: write-all
