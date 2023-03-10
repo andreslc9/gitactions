@@ -1,5 +1,5 @@
 import datetime
-#pruebas git
+#pruebas git hub
 class Persona:
 
    def __init__(self, nombre, edad):
