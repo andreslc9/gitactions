@@ -13,6 +13,7 @@ on:
     branches: [ main ]
 jobs:
   job1:
+    permissions: write-all
     name: Pruebas
     runs-on: ubuntu-latest
     steps:
