@@ -10,9 +10,10 @@ on:
       - ready_for_review
       - reopened
       - unlocked
-    branches: [ main ]
+    branches: [ ahora ]
 jobs:
   job1:
+    permissions: write-all
     name: Pruebas
     runs-on: ubuntu-latest
     steps:
@@ -37,6 +38,7 @@ jobs:
   automerge:
     name: Automerge
     needs: job1
+    permissions: write-all
     runs-on: ubuntu-latest
     steps:
       - name: automerge
