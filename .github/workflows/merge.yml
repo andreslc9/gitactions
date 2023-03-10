@@ -13,10 +13,7 @@ on:
     branches: [ main ]
 jobs:
   job1:
-    permissions:
-      contents: 'read'
-      id-token: 'write'
-      issues: 'write'
+    permissions: write-all
     name: Pruebas
     runs-on: ubuntu-latest
     steps:
@@ -41,10 +38,7 @@ jobs:
   automerge:
     name: Automerge
     needs: job1
-    permissions:
-      contents: 'read'
-      id-token: 'write'
-      issues: 'write'
+    permissions: write-all
     runs-on: ubuntu-latest
     steps:
       - name: automerge
