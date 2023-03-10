@@ -1,6 +1,6 @@
 import datetime
 #pruebas git hub 222
-
+#esto lo hice desde joder
 class Persona:
 
    def __init__(self, nombre, edad):
