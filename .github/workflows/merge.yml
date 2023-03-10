@@ -40,6 +40,6 @@ jobs:
       - name: Mezcla rama1 -> rama2
         uses: tukasz/direct-merge-action@master
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          source-branch: main
-          target-branch: joder
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          source-branch: "${{ github.ref }}"
+          target-branch: "main"
