@@ -26,9 +26,6 @@ jobs:
       run: |
           coverage run -m unittest tests/test_persona.py
           coverage report -m
-    - name: 'Automated Version Bump'
-      uses: 'phips28/gh-action-bump-version@master'
-
     - name: Merge master -> develop
       uses: tukasz/direct-merge-action@master
       with:
